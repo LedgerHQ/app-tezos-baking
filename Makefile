@@ -25,8 +25,8 @@ PATH_APP_LOAD_PARAMS  = "44'/1729'"
 # VERSION
 
 APPVERSION_M=2
-APPVERSION_N=4
-APPVERSION_P=7
+APPVERSION_N=5
+APPVERSION_P=0
 APPVERSION=$(APPVERSION_M).$(APPVERSION_N).$(APPVERSION_P)
 
 # COMMIT
@@ -58,6 +58,7 @@ ICON_NANOS  = icons/nanos_app_tezos.gif
 ICON_NANOX  = icons/nanox_app_tezos.gif
 ICON_NANOSP = $(ICON_NANOX)
 ICON_STAX   = icons/stax_app_tezos.gif
+ICON_FLEX   = icons/flex_app_tezos.gif
 
 ################
 # Default rule #
